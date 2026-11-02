@@ -1,0 +1,11 @@
+BenScr.Caching.LruCache`2 : System.Object
+  Constructor Void .ctor(Int32, System.TimeProvider, System.Collections.Generic.IEqualityComparer`1[TKey])
+  Method Boolean Remove(TKey)
+  Method Boolean TryGet(TKey, TValue ByRef)
+  Method Int32 RemoveExpired()
+  Method Int32 get_Capacity()
+  Method Int32 get_Count()
+  Method Void Clear()
+  Method Void Set(TKey, TValue, System.Nullable`1[System.TimeSpan])
+  Property Int32 Capacity
+  Property Int32 Count
